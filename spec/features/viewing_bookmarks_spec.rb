@@ -5,8 +5,8 @@ feature 'Viewing booksmarks' do
   end
   scenario 'visit bookmarks page, see list of stored bookmarks' do
     visit('/bookmarks')
-    expect(page).to have_content("www.google.co.uk")
-    expect(page).to have_content("www.ebay.co.uk")
-    expect(page).to have_content("www.amazon.co.uk")
+    expect(page).to have_content("www.makersacademy.com")
+    expect(page).to have_content("www.destroyallsoftware.com")
+    expect(page).to have_content("www.google.com")
   end
 end
